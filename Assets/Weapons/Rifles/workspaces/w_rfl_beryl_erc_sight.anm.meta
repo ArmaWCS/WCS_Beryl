@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6D0E130296C4A924}Assets/Weapons/Rifles/workspaces/w_rfl_beryl_erc_sight.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

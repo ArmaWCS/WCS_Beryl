@@ -1,0 +1,17 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 2
+ $node "w_fire_mode" {
+  $keys q {
+   $frame 0 {
+   }
+   $frame 1 {
+    #q 0.08977787 0 0 0.9959619
+   }
+   $frame 2 {
+    #q 0.15024319 0 0 0.98864913
+   }
+  }
+ }
+}

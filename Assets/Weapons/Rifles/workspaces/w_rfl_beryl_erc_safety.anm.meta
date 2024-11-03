@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{06B06EE6246FB4BC}Assets/Weapons/Rifles/workspaces/w_rfl_beryl_erc_safety.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

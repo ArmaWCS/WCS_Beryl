@@ -1,0 +1,25 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 72
+ $node "w_mag_release" {
+  $keys t q {
+   $frame 0 52 {
+    #t 0 0.0206607 0.0327658
+   }
+   $frame 53 {
+    #q -0.1197212 0 0 0.99280763
+   }
+   $frame 54 72 {
+   }
+  }
+ }
+ $events {
+  #event 16 "BlendIn" "" -1 0 "" 0
+  #event 29 "Weapon_SpawnMagazine" "" -1 0 "" 0
+  #event 38 "Sound" "SOUND_RELOAD_MAG_INSERT" 1 0 "" 1
+  #event 47 "Weapon_MagRelease" "" -1 0 "" 0
+  #event 54 "Weapon_AttachMagazine" "" -1 0 "" 0
+  #event 72 "BlendOut2" "" -1 0 "" 0
+ }
+}

@@ -1,0 +1,27 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 3
+ $node "w_bolt" {
+  $keys t q {
+   $frame 0 {
+    #t 0 0.08205 0.0764059
+   }
+   $frame 1 {
+    #t 0 0.08205 0.0027949
+   }
+   $frame 2 {
+    #t 0 0.08205 -0.0138177
+   }
+   $frame 3 {
+   }
+  }
+  $node "w_bolt_release" {
+   $keys t q {
+    $frame 0 3 {
+     #t 0.0000025 -0.0016772 -0.0084154
+    }
+   }
+  }
+ }
+}

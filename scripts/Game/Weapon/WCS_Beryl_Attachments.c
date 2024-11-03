@@ -1,0 +1,4 @@
+class WCS_Beryl_ButtstockClass {}
+WCS_Beryl_ButtstockClass WCS_Beryl_ButtstockSource;
+
+class WCS_Beryl_Buttstock : BaseAttachmentType

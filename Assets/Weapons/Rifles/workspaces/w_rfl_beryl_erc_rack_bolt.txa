@@ -1,0 +1,40 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 43
+ $node "w_bolt" {
+  $keys t q {
+   $frame 0 20 {
+    #t 0 0.08205 0.0764059
+   }
+   $frame 21 {
+    #t 0 0.08205 0.0542176
+   }
+   $frame 22 {
+    #t 0 0.08205 0.0130107
+   }
+   $frame 23 28 {
+    #t 0 0.08205 -0.0091776
+   }
+   $frame 29 {
+    #t 0 0.08205 0.0336142
+   }
+   $frame 30 43 {
+   }
+  }
+  $node "w_bolt_release" {
+   $keys t q {
+    $frame 0 43 {
+     #t 0.0000025 -0.0016772 -0.0084154
+    }
+   }
+  }
+ }
+ $events {
+  #event 0 "BlendIn" "" -1 0 "" 0
+  #event 0 "Weapon_EnableFire" "" -1 0 "" 0
+  #event 17 "Sound" "SOUND_RELOAD_BOLT_PULL" 3 0 "" 1
+  #event 18 "Weapon_Rack_Bolt" "" -1 0 "" 0
+  #event 27 "Sound" "SOUND_RELOAD_BOLT_RELEASE" 4 0 "" 1
+ }
+}

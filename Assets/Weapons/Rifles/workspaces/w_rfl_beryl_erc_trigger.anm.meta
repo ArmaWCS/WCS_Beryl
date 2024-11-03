@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A3C376C042FFF4ED}Assets/Weapons/Rifles/workspaces/w_rfl_beryl_erc_trigger.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

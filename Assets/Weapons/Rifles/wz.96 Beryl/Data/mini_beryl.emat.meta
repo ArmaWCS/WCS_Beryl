@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B77BDBCB6C5F4DEA}Assets/Weapons/Rifles/wz.96 Beryl/Data/mini_beryl.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

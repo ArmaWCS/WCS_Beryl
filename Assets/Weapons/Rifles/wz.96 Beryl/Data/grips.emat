@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{7E0F44A22C84853E}Assets/Weapons/Rifles/wz.96 Beryl/Data/grips_BCR.edds"
+ NMOMap "{46D7FF30F5F3D7A0}Assets/Weapons/Rifles/wz.96 Beryl/Data/grips_NMO.edds"
+}

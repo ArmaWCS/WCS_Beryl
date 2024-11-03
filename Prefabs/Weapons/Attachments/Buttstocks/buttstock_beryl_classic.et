@@ -1,0 +1,21 @@
+GameEntity : "{B0B0FB18B50082F1}Prefabs/Weapons/Attachments/Buttstocks/buttstock_Base.et" {
+ ID "61FC0035E5881E26"
+ components {
+  InventoryItemComponent "{61FC0035E5881E18}" {
+   Attributes SCR_ItemAttributeCollection "{61FC0035E5881E11}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{62C66A995C438DA0}" {
+     Weight 0.35
+    }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{61FC0035E5881E14}" {
+      AttachmentType WCS_Beryl_Buttstock "{62C66A998A5F2658}" {
+      }
+     }
+    }
+   }
+  }
+  MeshObject "{61FC0035E5881E02}" {
+   Object "{5454E108BE5F61B0}Assets/Weapons/Attachments/Buttstocks/berylclassicstock.xob"
+  }
+ }
+}

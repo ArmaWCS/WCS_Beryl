@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{A73500D47E34CBBE}Assets/Weapons/Attachments/Buttstocks/Data/wirestock_BCR.edds"
+ NMOMap "{9FEDBB46A7439920}Assets/Weapons/Attachments/Buttstocks/Data/wirestock_NMO.edds"
+}

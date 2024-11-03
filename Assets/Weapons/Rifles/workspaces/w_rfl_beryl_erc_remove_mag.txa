@@ -1,0 +1,42 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 59
+ $node "w_mag_release" {
+  $keys t q {
+   $frame 0 12 {
+    #t 0 0.0206607 0.0327658
+   }
+   $frame 13 {
+    #q -0.03290325 0 0 0.99945855
+   }
+   $frame 14 {
+    #q -0.11214449 0 0 0.99369192
+   }
+   $frame 15 {
+    #q -0.20644785 0 0 0.97845769
+   }
+   $frame 16 {
+    #q -0.28347412 0 0 0.95897996
+   }
+   $frame 17 {
+    #q -0.31487417 0 0 0.9491334
+   }
+   $frame 18 {
+    #q -0.23555249 0 0 0.97186172
+   }
+   $frame 19 {
+    #q -0.08244336 0 0 0.9965958
+   }
+   $frame 20 59 {
+   }
+  }
+ }
+ $events {
+  #event 8 "Sound" "SOUND_RELOAD_MAG_REMOVE" 0 0 "" 1
+  #event 11 "Weapon_MagRelease" "" -1 0 "" 0
+  #event 14 "Weapon_DetachMagazine" "" -1 0 "" 0
+  #event 30 "BlendOut" "" -1 0 "" 0
+  #event 30 "Weapon_DespawnMagazine" "" -1 0 "" 0
+ }
+}

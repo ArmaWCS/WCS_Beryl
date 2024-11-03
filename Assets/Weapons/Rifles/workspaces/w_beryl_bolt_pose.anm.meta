@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{39A0BCE945452128}Assets/Weapons/Rifles/workspaces/w_beryl_bolt_pose.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

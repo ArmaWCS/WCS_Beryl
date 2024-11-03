@@ -1,0 +1,39 @@
+MetaFileClass {
+ Name "{FE7DCEF8EEDD9126}Assets/Weapons/Magazines/Beryl/berylmagazine.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{62C66A818941B179}" {
+     SourceMaterial "magazines_bipod"
+     AssignedMaterial "{05788DF86ED061C6}Assets/Weapons/Magazines/Beryl/Data/magazines_bipod.emat"
+    }
+   }
+   MeshParams {
+    MeshParam beryl_magazine {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_Mag_collider {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{6A7CBD6BBCFC5148}Common/Materials/Game/Plastic/plastic_6mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

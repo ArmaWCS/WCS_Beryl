@@ -1,0 +1,27 @@
+MetaFileClass {
+ Name "{5454E108BE5F61B0}Assets/Weapons/Attachments/Buttstocks/berylclassicstock.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{62C66A8991C0C4D1}" {
+     SourceMaterial "stocks"
+     AssignedMaterial "{DC529BCE55BE4068}Assets/Weapons/Attachments/Buttstocks/Data/stocks.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "classic_beryl.001" {
+    }
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}
