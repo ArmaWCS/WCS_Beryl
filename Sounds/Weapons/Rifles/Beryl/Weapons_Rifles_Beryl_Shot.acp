@@ -1267,7 +1267,7 @@ AudioClass {
    }
    path "{B764D803219C775E}Sounds/FinalMix.afm"
    inputs {
-    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player"
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "Dialog_Delay_Exterior"
    }
   }
  }
@@ -1407,7 +1407,7 @@ AudioClass {
    id 3090
    name "Bodies Shader"
    version 5
-   tl 608 -576
+   tl 606.571 -576
    ins {
     ConnectionsClass connections {
      id 0
@@ -2677,7 +2677,7 @@ AudioClass {
    id 210948
    name "Body FP"
    version 7
-   tl -246.114 -669.696
+   tl -246.114 -670.946
    ins {
     ConnectionsClass connections {
      id 0
@@ -2694,7 +2694,7 @@ AudioClass {
    }
    Volume 12.71
    "Volume variance" 0.5
-   Pitch 1
+   Pitch 3
    "Pitch variance" 1
    Resampler FIR_4
    "Disable streaming" 1
@@ -2749,8 +2749,9 @@ AudioClass {
    pi {
     33 0
    }
-   Volume -2
+   Volume -6
    "Volume variance" 1
+   Pitch -2
    "Pitch variance" 0.65
    Resampler FIR_4
    "Fade in function" SCurve
@@ -2773,7 +2774,7 @@ AudioClass {
    id 300036
    name "AL AK Close"
    version 7
-   tl -246.114 -823.258
+   tl -239.328 -804.865
    ctl 1.607 -19
    ins {
     ConnectionsClass connections {
@@ -2798,14 +2799,14 @@ AudioClass {
    pi {
     33 0
    }
-   Volume -17.344
+   Volume 12
    "Pitch variance" 2
    Resampler FIR_4
    "Fade in function" SCurve
    "Fade in time" 5
    Samples {
     AudioBankSampleClass Sample {
-     Filename "{E5F7BEE290DFCBBB}Sounds/Weapons/_SharedData/AddLayers/1p_AddLayer/AddLayer_1p_AK.wav"
+     Filename "{A2F7080E10DB8C9B}Sounds/Weapons/_SharedData/AddLayers/1p_AddLayer/AddLayer_1p_Beryl.wav"
     }
    }
   }
@@ -2946,7 +2947,7 @@ AudioClass {
    id 314372
    name "Body Far"
    version 7
-   tl -246.114 -442.088
+   tl -246.114 -442.921
    ctl 0 -21
    ins {
     ConnectionsClass connections {

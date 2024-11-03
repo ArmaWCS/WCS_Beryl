@@ -4,8 +4,8 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
   InventoryMagazineComponent "{51EED12B803954CC}" {
    Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
     ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
-     Name "#AR-Magazine_AK74_Name"
-     Description "#AR-Magazine_AK74_Description"
+     Name "5.56x45 30rnd Beryl Magazine"
+     Description "Beryl magazine containing 30 rounds of M855 ammunition."
     }
     ItemPhysAttributes ItemPhysicalAttributes "{62C66A850AAA1A68}" {
      Weight 0.23
@@ -33,7 +33,7 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
     m_MagIndicator SCR_MagazineIndicatorConfiguration "{5866951DE2665916}" : "{1AA788302FE3C53A}Configs/WeaponInfo/MagazineIndicators/ak74_30.conf" {
     }
    }
-   AmmoConfig "{3D41E1B0D6EEC0AF}Configs/Weapons/Ammo/Ammo_545x39.conf"
+   AmmoConfig "{2689915ED0E00994}Configs/Weapons/Ammo/Ammo_556x45.conf"
    AmmoMapping {
     0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
    }
