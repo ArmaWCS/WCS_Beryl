@@ -74,7 +74,6 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
    Slots {
     EntitySlotInfo Mount {
      PivotID "Scene_Root"
-     Offset 0 0.021 -0.0498
      Prefab "{04E6C4233F0885F3}Prefabs/Weapons/Attachments/Mounts/POPC_Beryl/POPC_Beryl.et"
     }
    }

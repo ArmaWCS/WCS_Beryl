@@ -9,7 +9,17 @@ MetaFileClass {
     }
    }
    MeshParams {
-    MeshParam "classic_beryl.001" {
+    MeshParam classic_beryl_mount {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_W_classic_beryl_mount_LOD0 {
+     LayerPreset "Weapon"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
     }
    }
    Common TXOCommonClass "{62E4178762A8F63A}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
