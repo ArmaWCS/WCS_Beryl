@@ -1,0 +1,86 @@
+MetaFileClass {
+ Name "{EA911DB5E7982008}Assets/Weapons/Rifles/Beryl/Beryl.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{62E40625493A2483}" {
+     SourceMaterial "beryl"
+     AssignedMaterial "{E9E885F446E4EAB6}Assets/Weapons/Rifles/Beryl/Data/beryl.emat"
+    }
+    MaterialAssignClass "{62E40625493A2473}" {
+     SourceMaterial "front_covers"
+     AssignedMaterial "{9D2714EAA5648546}Assets/Weapons/Rifles/Beryl/Data/front_covers.emat"
+    }
+    MaterialAssignClass "{62E40625493A247D}" {
+     SourceMaterial "mini_beryl"
+     AssignedMaterial "{7B3ED9454267BE59}Assets/Weapons/Rifles/Beryl/Data/mini_beryl.emat"
+    }
+    MaterialAssignClass "{62E40625493A247F}" {
+     SourceMaterial "grips"
+     AssignedMaterial "{4FC16E996345E4A8}Assets/Weapons/Rifles/Beryl/Data/grips.emat"
+    }
+    MaterialAssignClass "{62E40625493A2479}" {
+     SourceMaterial "addons_locks"
+     AssignedMaterial "{F39D1D9B9B99E293}Assets/Weapons/Rifles/Beryl/Data/addons_locks.emat"
+    }
+   }
+   MeshParams {
+    MeshParam classic_beryl_body {
+    }
+    MeshParam classic_beryl_bolt {
+    }
+    MeshParam classic_beryl_fire_mode {
+    }
+    MeshParam classic_beryl_mag_release {
+    }
+    MeshParam classic_beryl_sight {
+    }
+    MeshParam classic_beryl_sight_slider {
+    }
+    MeshParam classic_beryl_trigger {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_Beryl_body {
+     LayerPreset "Weapon"
+     SurfaceProperties {
+      "{7F153655D1F9ECD8}Common/Materials/Game/WeaponParts/weapon_plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_beryl_firegeo {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{7F153655D1F9ECD8}Common/Materials/Game/WeaponParts/weapon_plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{62E4062549551761}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{62E4062549550819}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{62E40625495509CA}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{62E4062549550970}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{62E406254955094A}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{62E406254955091D}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

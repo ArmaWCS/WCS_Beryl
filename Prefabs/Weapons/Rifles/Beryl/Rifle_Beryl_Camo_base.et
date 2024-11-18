@@ -1,0 +1,43 @@
+GenericEntity : "{D0F80182E57F45AD}Prefabs/Weapons/Rifles/Beryl/Rifle_Beryl_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{62E40627403C42EE}" {
+     SourceMaterial "addons_locks"
+     AssignedMaterial "{A3F0F056789C3DBA}Assets/Weapons/Rifles/Beryl/Data/Camo/addons_locks_camo.emat"
+    }
+    MaterialAssignClass "{62E40627403C42CF}" {
+     SourceMaterial "beryl"
+     AssignedMaterial "{787F1D34438826F4}Assets/Weapons/Rifles/Beryl/Data/Camo/beryl_camo.emat"
+    }
+    MaterialAssignClass "{62E40627403C42B4}" {
+     SourceMaterial "front_covers"
+     AssignedMaterial "{DDA9C2D1588DE4BD}Assets/Weapons/Rifles/Beryl/Data/Camo/front_covers_camo.emat"
+    }
+    MaterialAssignClass "{62E40627403C42B1}" {
+     SourceMaterial "grips"
+     AssignedMaterial "{657790B08DEA6A59}Assets/Weapons/Rifles/Beryl/Data/Camo/grips_camo.emat"
+    }
+    MaterialAssignClass "{62E40627403C42BF}" {
+     SourceMaterial "mini_beryl"
+     AssignedMaterial "{FED57ECEFD1DABA5}Assets/Weapons/Rifles/Beryl/Data/Camo/mini_beryl_camo.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{62E42272C458E647}" {
+   Slots {
+    EntitySlotInfo Mount {
+     Prefab "{D8C843F3CF4FA61F}Prefabs/Weapons/Attachments/Mounts/POPC_Beryl/POPC_Beryl_Camo.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{41D69356F7D9D228}Prefabs/Weapons/Magazines/Magazine_556x45_Beryl_30rnd_Camo.et"
+    }
+   }
+  }
+ }
+}

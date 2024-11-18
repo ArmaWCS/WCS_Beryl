@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{FE7DCEF8EEDD9126}Assets/Weapons/Magazines/Beryl/berylmagazine.xob"
+ Name "{FE7DCEF8EEDD9126}Assets/Weapons/Magazines/Beryl/Magazine_30rnd_Beryl.xob"
  Configurations {
   FBXResourceClass PC {
    ExportSkinning 1

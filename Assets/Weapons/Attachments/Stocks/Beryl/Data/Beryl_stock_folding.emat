@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{294BD1CBEF3EA874}Assets/Weapons/Attachments/Stocks/Beryl/Data/stock_folding_BCR.edds"
+ NMOMap "{11936A593649FAEA}Assets/Weapons/Attachments/Stocks/Beryl/Data/stock_folding_NMO.edds"
+}

@@ -1,0 +1,11 @@
+GenericEntity : "{0A9CD090EE3440E7}Prefabs/Weapons/Core/WeaponPart_Base.et" {
+ ID "557E85EEE1B603F1"
+ components {
+  MeshObject "{557E85EE39CED921}" {
+   Object "{11B1E2F0D29B731C}Assets/Weapons/Attachments/Mounts/POPC_Beryl/POPC_Beryl.xob"
+  }
+  RigidBody "{557E85EE3F17E453}" {
+   Static 1
+  }
+ }
+}

@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{64A93B69CA8C0C0D}Assets/Weapons/Rifles/Beryl/Data/front_covers_BCR.edds"
+ NMOMap "{5C7180FB13FB5E93}Assets/Weapons/Rifles/Beryl/Data/front_covers_NMO.edds"
+}

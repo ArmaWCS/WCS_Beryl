@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AC95FD93C94D9DE4}Assets/Weapons/Attachments/Stocks/Beryl/Data/Camo/Beryl_stock_fixed_camo.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

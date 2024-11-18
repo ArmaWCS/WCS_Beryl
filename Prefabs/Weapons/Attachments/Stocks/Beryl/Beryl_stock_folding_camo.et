@@ -1,0 +1,13 @@
+GameEntity : "{BDEBFD7EAD45C355}Prefabs/Weapons/Attachments/Stocks/Beryl_stock_folding.et" {
+ ID "61FC0035E5881E26"
+ components {
+  MeshObject "{557E85EE39CED921}" {
+   Materials {
+    MaterialAssignClass "{62E41787AD15E47D}" {
+     SourceMaterial "wirestock"
+     AssignedMaterial "{E56129DD0C91672C}Assets/Weapons/Attachments/Stocks/Beryl/Data/Camo/Beryl_stock_folding_camo.emat"
+    }
+   }
+  }
+ }
+}

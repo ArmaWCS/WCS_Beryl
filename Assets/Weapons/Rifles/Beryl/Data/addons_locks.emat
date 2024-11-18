@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{9B4D9EBD6B629861}Assets/Weapons/Rifles/Beryl/Data/addons_locks_BCR.edds"
+ NMOMap "{A395252FB215CAFF}Assets/Weapons/Rifles/Beryl/Data/addons_locks_NMO.edds"
+}

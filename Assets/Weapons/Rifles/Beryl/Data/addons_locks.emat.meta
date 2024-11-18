@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F39D1D9B9B99E293}Assets/Weapons/Rifles/Beryl/Data/addons_locks.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

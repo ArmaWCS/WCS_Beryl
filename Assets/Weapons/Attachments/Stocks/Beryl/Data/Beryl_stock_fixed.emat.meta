@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2B2E18DFA8AE95BC}Assets/Weapons/Attachments/Stocks/Beryl/Data/Beryl_stock_fixed.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

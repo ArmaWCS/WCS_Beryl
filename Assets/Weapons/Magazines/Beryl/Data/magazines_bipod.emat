@@ -1,4 +1,4 @@
 MatPBRBasic {
- BCRMap "{50DC20A918896E81}Assets/Weapons/Magazines/Beryl/Data/magazines_bipod.004_BCR.edds"
- NMOMap "{68049B3BC1FE3C1F}Assets/Weapons/Magazines/Beryl/Data/magazines_bipod.004_NMO.edds"
+ BCRMap "{3D9B835EB5112C40}Assets/Weapons/Magazines/Beryl/Data/magazines_bipod_BCR.edds"
+ NMOMap "{054338CC6C667EDE}Assets/Weapons/Magazines/Beryl/Data/magazines_bipod_NMO.edds"
 }

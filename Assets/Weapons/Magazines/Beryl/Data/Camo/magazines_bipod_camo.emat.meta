@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AB5C0A2D6836B205}Assets/Weapons/Magazines/Beryl/Data/Camo/magazines_bipod_camo.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

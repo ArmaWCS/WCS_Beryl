@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E9E885F446E4EAB6}Assets/Weapons/Rifles/Beryl/Data/beryl.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,13 @@
+GameEntity : "{737C2B78629EBBA5}Prefabs/Weapons/Attachments/Stocks/Beryl_stock_fixed.et" {
+ ID "61FC0035E5881E26"
+ components {
+  MeshObject "{557E85EE39CED921}" {
+   Materials {
+    MaterialAssignClass "{62E41787BD0BBC07}" {
+     SourceMaterial "stocks"
+     AssignedMaterial "{AC95FD93C94D9DE4}Assets/Weapons/Attachments/Stocks/Beryl/Data/Camo/Beryl_stock_fixed_camo.emat"
+    }
+   }
+  }
+ }
+}

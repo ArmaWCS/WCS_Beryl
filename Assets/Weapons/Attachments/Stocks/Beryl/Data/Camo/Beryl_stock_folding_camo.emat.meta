@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E56129DD0C91672C}Assets/Weapons/Attachments/Stocks/Beryl/Data/Camo/Beryl_stock_folding_camo.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

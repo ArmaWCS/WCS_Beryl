@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DDA9C2D1588DE4BD}Assets/Weapons/Rifles/Beryl/Data/Camo/front_covers_camo.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

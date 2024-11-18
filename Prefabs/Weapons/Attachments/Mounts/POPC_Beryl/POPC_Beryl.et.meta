@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{04E6C4233F0885F3}Prefabs/Weapons/Attachments/Mounts/POPC_Beryl/POPC_Beryl.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

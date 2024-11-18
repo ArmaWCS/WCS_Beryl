@@ -1,0 +1,14 @@
+GenericEntity : "{D0F80182E57F45AD}Prefabs/Weapons/Rifles/Beryl/Rifle_Beryl_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{62C66A8A416389C8}" {
+     AttachmentSlot InventoryStorageSlot Stock {
+      Prefab "{BDEBFD7EAD45C355}Prefabs/Weapons/Attachments/Stocks/Beryl/Beryl_stock_folding.et"
+     }
+    }
+   }
+  }
+ }
+}

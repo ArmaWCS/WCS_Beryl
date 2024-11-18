@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{312137AFB930201A}Assets/Weapons/Rifles/Beryl/Data/Camo/grips_camo_BCR.edds"
+ NMOMap "{09F98C3D60477284}Assets/Weapons/Rifles/Beryl/Data/Camo/grips_camo_NMO.edds"
+}
